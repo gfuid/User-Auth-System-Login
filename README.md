@@ -39,3 +39,10 @@ A secure authentication system built with Node.js, Express, MongoDB, JWT, and bc
 | POST   | /api/auth/login    | Login user      |
 
 ---
+Part	                    Tech Used	            Purpose
+
+User schema	                Mongoose	            Stores user data
+Password hashing	        Bcrypt	                Encrypt passwords
+Token generation	        JWT	                    Send secure user credentials
+Auth middleware	            Express + JWT	        Protect routes
+Refresh token mechanism	    JWT	                    Stay logged in without re-login
